@@ -27,6 +27,11 @@
   </modules>
 
   <distributionManagement>
+      <repository>
+        <id>deployment</id>
+        <name>release </name>
+        <url>http://localhost:8081/nexus/content/repositories/MPS/</url>
+    </repository>
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
